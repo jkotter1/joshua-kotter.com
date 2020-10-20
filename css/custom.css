@@ -89,6 +89,28 @@
     background-color: black;
 }
 
+#get_in_touch {
+    background-color: lightblue;
+    padding-bottom: 20px;
+}
+
+.fa {
+    padding:5px;
+}
+
+.bg-grey {
+    background-color: #e9ecef;
+}
+
+.social-link {
+    color:black;
+   
+}
+
+.social-link:hover {
+    color: grey;
+}
+
 .overflow-hidden {
     overflow: hidden;
 }

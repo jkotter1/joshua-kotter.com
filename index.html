@@ -3,7 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<!-- Welcome to the source for my home page. Happy reading. -->
+    <!-- Welcome to the source for my home page. Happy reading. -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -15,29 +15,32 @@
     <!-- Custom CSS for site header -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 
+    <!-- Font Awesome for icons-->
+    <script src="https://kit.fontawesome.com/c1fa55bb23.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
     <nav class="site-header sticky-top py-1">
         <div class="container d-flex flex-column flex-md-row justify-content-between">
-            <a class="py-2 d-none d-md-inline-block" href="#">Home</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">About</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Contact</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Portfolio</a>
+            <a class="py-2 d-none d-md-inline-block" href="http://joshua-kotter.com/index.html">Home</a>
+            <a class="py-2 d-none d-md-inline-block" href="#education">About</a>
+            <a class="py-2 d-none d-md-inline-block" href="#get_in_touch">Contact</a>
+            <a class="py-2 d-none d-md-inline-block" target="_blank" href="https://drive.google.com/file/d/1RqbaUyIVZEpyFikAcCZAOJSUQHOSNg2G/view?usp=sharing">Resume</a>
         </div>
     </nav>
 
     <div id="banner_pic" class="position-relative overflow-hidden p-3 p-md-5 text-center">
         <div class="p-lg-5 mx-auto my-5">
             <h1 class="display-4 font-weight-normal">Joshua Kotter</h1>
-            <p class="lead font-weight-normal">Developer, Engineer, MBA, Juggler, Martial Artist</p>
+            <p class="lead font-weight-normal">Developer, Engineer, MBA, Martial Artist</p>
         </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
         <div id="welcome_pic" class="imagediv mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
         </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+        <div class="bg-grey mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
             <div class="my-3 p-3">
                 <h2 class="display-5">Greetings, Web Traveler.</h2>
                 <p class="lead"></p>
@@ -51,8 +54,8 @@
         </div>
     </div>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+    <div id="education" class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-grey mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
             <div class="my-3 py-3">
                 <h2 class="display-5">Education</h2>
                 <p class="lead">
@@ -78,7 +81,7 @@
         <div id="ford_pic" class="imagediv bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
 
         </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+        <div class="bg-grey mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
             <div class="my-3 p-3">
                 <h2 class="display-5">Work Experience</h2>
                 <p class="lead">
@@ -90,13 +93,13 @@
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+        <div class="bg-grey mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
             <div class="my-3 py-3">
                 <h2 class="display-5">Programming Experience</h2>
                 <p class="lead">
                     As part of my work at Ford, I have written applications in Python, VBA, and SQLite.
                     I have also built independent websites using HTML, CSS, Javascript, and Wordpress applications.
-                    On other projects, I have had experience with C, PLC Ladder Logic, and CAD programs.
+                    On other projects, I have had experience with C++, Rockwell Automation RSLogix, and CAD programs.
                 </p>
             </div>
         </div>
@@ -108,25 +111,26 @@
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
         <div id="proj_pic" class="imagediv bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
         </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+        <div class="bg-grey mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
             <div class="my-3 p-3">
                 <h2 class="display-5">Favorite Projects</h2>
                 <p class="lead">
                     Some of my favorite projects include:
                 </p>
                 <ul>
+                    <li class="lead">
+                        A label generator application currently
+                        used to label all incoming inventory at the Ford Kentucky Truck Plant.
+                    </li>
                     <li class="lead">A capture-the-flag robot I made as an Engineering Masters project</li>
                     <li class="lead">A stock-picking web scraper I wrote during my MBA program</li>
-                    <li class="lead">A label generator application I built at work that is currently 
-                                     used to label all incoming inventory at the Ford Kentucky Truck Plant.
-                    </li>
                 </ul>
-</div>
+            </div>
         </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+        <div class="bg-grey mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
             <h2 class="display-5">Other Interests</h2>
 
             <p class="lead">
@@ -142,6 +146,20 @@
         </div>
     </div>
 
+    <div class="d-md-flex flex-md-equal w-100 my-md-3">
+        <div id="get_in_touch" class="pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <p class="lead"><b>Want to learn more?</b></p>
+            <h3>I would love to hear from you.</h3>
+            <div class="column-fluid text-center overflow-hidden">
+                <a class ="social-link" href="http://www.linkedin.com/in/joshua-kotter"><i class="fab fa-linkedin fa-3x fa-fw"></i></a>
+                <a class ="social-link" href="mailTo:joshua.kotter@gmail.com"><i class="fas fa-envelope fa-3x fa-fw"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-footer bg-dark text-white text-center py-1">
+        <p></p>
+        <p>Copyright Joshua Kotter 2020</p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
