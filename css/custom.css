@@ -14,11 +14,14 @@
     background-color: rgba(0, 0, 0, .60);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
+    min-height:48px;
 }
 
 .site-header a {
     color: #DDD;
     transition: ease-in-out color .15s;
+    min-width: 70px;
+    text-align:center;
 }
 
 .site-header a:hover {
